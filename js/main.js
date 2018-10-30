@@ -1,0 +1,19 @@
+    $(function(){
+    	$('.third').on('mouseover',function(){
+    		$('.third').addClass('third-active').text("立体");
+    	})
+    	$('.third').on('mouseout',function(){
+    		$('.third').removeClass('third-active').text("平面");
+    	})
+    	$('.third').on('click',function(){
+    		$('.third').css('display','none');
+    		$('.third-select').css('display','block');
+    		$('.third-select').addClass('animated slideInRight');
+    	})
+    	$('.third-select-item').on('mouseover',function(){
+    		$(this).addClass('third-item-active');
+    	})
+    	$('.third-select-item').on('mouseout',function(){
+    		$(this).removeClass('third-item-active');
+    	})
+    });
