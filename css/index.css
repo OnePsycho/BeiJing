@@ -5,6 +5,7 @@ html,
 	width: 100%;
 	min-width: 1366px;
 	overflow-x: hidden;
+	font-family: 'myFont';
 }
 
 .bj-header {
