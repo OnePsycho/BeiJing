@@ -7,8 +7,8 @@
   float: left;
 }
 .box {
-  height: 30px;
-  line-height: 30px;
+  height: 40px;
+  line-height: 40px;
   margin-top: 40px;
   display: flex;
   justify-content: center;
@@ -19,21 +19,22 @@
 .box button {
   padding: 0 10px;
   margin: 0 10px;
-  height: 30px;
+  height: 40px;
   float: left;
   cursor: pointer;
   border: 1px solid #ebebeb;
-  background-color: #ffffff;
+  background: rgba(219, 215, 215, 0.6);
 }
 .box .first-page,
 .box .last-page {
   margin: 0;
 }
 .box .pageWrap {
-  height: 30px;
+  height: 40px;
   float: left;
   overflow: hidden;
   width: 150px;
+	margin-left: -5px;
 }
 .box .pageWrap ul {
   width: 100000px;
@@ -42,15 +43,19 @@
 }
 .box .pageWrap ul li {
   width: 40px;
-  height: 30px;
-  border: 1px solid #ebebeb;
-  line-height: 30px;
+  height: 40px;
+  border: 1px solid #f8f3f3;
+	background: rgba(219, 215, 215, 0.6);
+  line-height: 40px;
+	margin-left: 5px;
   box-sizing: border-box;
   cursor: pointer;
+	color: rgb(134,22,11);
+	border-radius: 5px;
   float: left;
 }
 .box .pageWrap ul .sel-page {
-  background-color: rgb(192,178,131);
+  background-color: rgb(134,22,11);
   color: white;
 }
 .box .jump-text {
